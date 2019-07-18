@@ -1,0 +1,367 @@
+@import url(reset.css);
+@import url(font-face.css);
+body {
+    background: url(../img/background5.jpg) no-repeat;
+    font-family: "Open Sans Condensed";
+    min-width: 1000px;
+    position: relative;
+    color: #08273a;
+}
+
+.left_menu {
+    position: fixed;
+    background: #E5CDA7;
+    width: 30%;
+    height: 100%;
+    z-index: 1000;
+    min-width: 450px;
+    visibility: hidden;
+}
+
+.left_menu.header {
+    position: relative;
+    height: 110px;
+    width: 100%;
+    background: #feffef;
+}
+
+.left_menu.header div {
+    position: absolute;
+    left: 80%;
+}
+
+.left_menu.header div:hover {
+    cursor: hand;
+    color: #0e2b72;
+    ;
+}
+
+.search {
+    position: relative;
+}
+
+#field_search {
+    position: relative;
+    font-size: 12pt;
+    margin: 12px 0px 25px 22px;
+    width: calc(100% - 45px);
+    height: 25px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #feffef;
+    border-radius: 20px;
+    padding: 5px 11px 5px 30px;
+    color: #feffef;
+    text-align: right;
+}
+
+/* Chaging placeholder */
+#field_search::-webkit-input-placeholder {
+    color: #feffef;
+    opacity: 0.8;
+    text-overflow: ellipsis;
+    transition: opacity 0.5s ease;
+}
+
+#field_search::-moz-placeholder {
+    color: #feffef;
+    opacity: 0.8;
+    text-overflow: ellipsis;
+    transition: opacity 0.5s ease;
+}
+
+#field_search:-moz-placeholder {
+    color: #feffef;
+    opacity: 0.8;
+    text-overflow: ellipsis;
+    transition: opacity 0.5s ease;
+}
+
+#field_search:-ms-input-placeholder {
+    color: #feffef;
+    opacity: 0.8;
+    text-overflow: ellipsis;
+    transition: opacity 0.5s ease;
+}
+
+#field_search:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#field_search:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#field_search:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#field_search:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+/* end changing :-moz-placeholder */
+
+.search>div:not(.contener-lesson) {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: url("../img/s_icon_search.png") no-repeat;
+    top: 18px;
+    left: 31px;
+}
+
+.contener-lesson {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.item-menu-lesson {
+    padding: 8 0 8 0;
+    width: 100%;
+    font-size: 17pt;
+    font-weight: bold;
+    color: #feffef;
+    text-align: center;
+}
+
+.item-menu-lesson p:hover{
+    cursor: hand;
+}
+
+.item-menu-lesson:hover {
+    background: #feffef;
+    color: #08273a;
+    cursor: hand;
+}
+
+.m a {
+    text-decoration: none;
+    color: #08273a;
+}
+
+.m a:hover, .m:hover {
+    color: #feffef;
+    cursor: hand;
+}
+
+div.header {
+    position: relative;
+    height: 110px;
+    top: 0px;
+    left: 0px;
+    background: #E5CDA7;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.navigation .m.standart.c {
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.header div {
+    margin-top: 38px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.navigation {
+    position: absolute;
+    left: 38%;
+    top: -35px;
+}
+
+/* li.m_navigation ul li{
+   display: inline;
+} */
+
+div.m.lesson {
+    position: absolute;
+    background: url(../img/menu.png) no-repeat -4px -4px;
+    background-size: 45px;
+    padding-left: 45px;
+    font-size: 27pt;
+    left: 5%;
+}
+
+div.logo {
+    background: url("../img/logo.png");
+    background-size: 72px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    left: 92%;
+    top: -15px;
+}
+
+div.logo a {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+}
+
+#headLogo {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin: 0;
+}
+
+#headLogo div {
+    position: absolute;
+    background: url("../img/logo-afterHeader.png") no-repeat;
+    background-size: 70%;
+    width: 70%;
+    height: 70%;
+    left: 23%;
+    top: 23%;
+}
+
+.body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 81px;
+    padding: 32px 62px;
+    background: #E5CDA7;
+}
+
+.body .content {
+    text-align: justify;
+    position: relative;
+    line-height: 30px;
+}
+
+.body .content h2 {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.body .content h3 {
+    text-align: left;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.body .content img {
+    float: right;
+    margin-left: 15px;
+}
+
+.body .content .article {
+    margin-bottom: 23px;
+    font-size: 18pt;
+}
+
+.article .bold_s {
+    font-weight: bold;
+}
+
+.blImg {
+    position: relative;
+    margin-left: 20%;
+    height: 250px;
+}
+
+.blImg div {
+    display: inline-block;
+    width: calc(100% / 4 + 22px);
+    height: 100%;
+    margin-left: 15px;
+}
+
+.blImg div.img1 {
+    background: url("../img/background1.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.blImg div.img2 {
+    background: url("../img/background2.jpg") no-repeat;
+    background-size: 102%;
+}
+
+.blImg div.img3 {
+    background: url("../img/background4.jpg") no-repeat;
+    background-size: 122%;
+}
+
+.footer {
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    padding: 15px;
+    background: #E5CDA7;
+    height: 67px;
+    font-size: 15pt;
+}
+
+.footer p {
+    margin: 0px 13px 5px 0px;
+}
+
+.footer div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social_net {
+    position: absolute;
+    left: calc(72% - 150px);
+    top: 32px;
+}
+
+.author {
+    position: absolute;
+    left: 20%;
+    margin-left: 32px;
+}
+
+.author div {
+    display: inline;
+}
+
+.contact_info {
+    position: absolute;
+    left: 8%;
+}
+
+.contact_info div {
+    display: block;
+}
+
+.social_net div {
+    min-width: 55px;
+    min-height: 55px;
+    margin-left: 27px;
+}
+
+.social_net div a {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+}
+
+#vk_icon {
+    background-image: url("../img/icon_vk.png");
+    background-repeat: no-repeat;
+    background-size: 55px;
+}
+
+#facebook_icon {
+    background-image: url("../img/icon_facebook.png");
+    background-repeat: no-repeat;
+    background-size: 55px;
+}
+
+#twitter_icon {
+    background-image: url("../img/icon_twitter.png");
+    background-repeat: no-repeat;
+    background-size: 55px;
+}

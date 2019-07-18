@@ -1,0 +1,74 @@
+%!Adobe-FontList 1.19
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSansCondensed-Bold
+FamilyName:Open Sans Condensed
+StyleName:Bold
+FullName:Open Sans Condensed Bold
+MenuName:Open Sans Condensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Lenovo\Desktop\origami.local\Font\OpenSansCondensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:264856
+FileModTime:1304884800
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Open Sans Condensed Bold
+NameArray:0,Win,1,Open Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSansCondensed-Light
+FamilyName:Open Sans Condensed
+StyleName:Light
+FullName:Open Sans Condensed Light
+MenuName:Open Sans Condensed Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Lenovo\Desktop\origami.local\Font\OpenSansCondensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:220940
+FileModTime:1304884800
+WeightClass:300
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Open Sans Condensed Light
+NameArray:0,Win,1,Open Sans Condensed Light
+NameArray:0,Win,16,Open Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSansCondensed-LightItalic
+FamilyName:Open Sans Condensed
+StyleName:Light Italic
+FullName:Open Sans Condensed Light Italic
+MenuName:Open Sans Condensed Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Lenovo\Desktop\origami.local\Font\OpenSansCondensed-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:210720
+FileModTime:1304884800
+WeightClass:300
+WidthClass:3
+AngleClass:1
+NameArray:0,Mac,4,Open Sans Condensed Light Italic
+NameArray:0,Win,1,Open Sans Condensed Light
+NameArray:0,Win,16,Open Sans Condensed
+%EndFont
+
